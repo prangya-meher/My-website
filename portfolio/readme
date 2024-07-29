@@ -1,0 +1,97 @@
+/* <----------media queries(max-width:530px)-------------> */
+/* @media (max-width:530px) {
+    .all{
+        text-align: center;
+        gap: 10rem;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        gap:1rem;
+    }
+    .open-menu{
+        display: block;
+        height: 33px;
+
+    }
+    .hidden{
+        display:none;
+    }
+    .home{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-left{
+        text-align: center;
+        margin-top: -6rem;
+        gap: 1px;
+        
+    }
+    .down1{
+        justify-content: center;
+        gap: 10px;
+    }
+    .link, .git-i{
+        height: 36px;
+        width: 35px;
+    }
+    .linked{
+        height: 35px;
+        width: 35px;
+    }
+    .home-button{
+        display:flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .head{
+        font-size: 35px;
+        }
+        .desc{
+            font-size: 17px;
+            color: rgb(139, 122, 122);
+        }
+        .name{
+            color: rgb(144, 63, 140);
+            font-size:30px ;
+            font-weight: bolder;
+        }
+        .home-sec{
+            padding:0 2rem 0;
+            margin-top: -1rem;
+            align-items: center;
+        }
+    .home-btn{
+           width: 300px;
+            padding: 15px;
+            font-size: 20px;
+    }
+    .about-sec{
+       height: 600px;
+       padding: 2rem;
+       gap: 2rem;
+    } 
+
+
+    .icon-split{
+        display: flex;
+        gap:5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-box {
+        background-color: rgb(42, 22, 42);
+        height: 90px;
+        width: 90px;
+        border-radius: 1rem;
+    }
+    .icons, .icons-git{
+        height: 60px;
+        width: 60px;
+        object-fit: contain;
+        padding:15px;
+    }
+  
+} */
