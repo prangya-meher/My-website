@@ -406,7 +406,8 @@ img{
 }
 
 /* ----------media queries(max-width:850)------------- */
-@media (max-width:850px) {
+@media (max-width:900px) {
+
 
     .all{
         text-align: center;
@@ -589,7 +590,7 @@ img{
 
 
 /* ----------media queries(max-width:1150)------------- */
-@media(min-width:850px) and (max-width:1200px) {
+@media(min-width:900px) and (max-width:2000px) {
     .all{
         gap: 10rem;
     }
@@ -598,9 +599,11 @@ img{
         margin-right: 0;
      }
     nav{
-        font-size: 20px;
+        /* font-size: 20px; */
+        font-size: 15px;
         margin-left: 0;
-        margin-right: 0;
+        margin-right: 3rem;
+        /* margin-right: 0; */
         gap:0;
         justify-content: space-between;
         }
@@ -622,24 +625,30 @@ img{
     .home-btn{
         width: 200px;
         border-style: none;
-        padding: 10px;
-        font-size: 18px;
-        margin-top:2rem;
+        /* padding: 10px; */
+        padding: 7px;
+        font-size: 13px;
+        /* font-size: 18px; */
+        margin-top:-2rem;
+        /* margin-top:2rem; */
     }
     .head{
-        font-size: 55px;
+        /* font-size: 55px; */
+        font-size: 35px;
         }
         .desc{
-            font-size: 20px;
+            font-size: 18px;
+            /* font-size: 20px; */
             color: rgb(139, 122, 122);
         }
         .name{
             color: rgb(144, 63, 140);
-            font-size:30px ;
+            font-size:20px ;
+            /* font-size:30px ; */
             font-weight: bolder;
         }
 .about-sec{
-    width: 110%;
+    width: 100%;
 }
 .skills-icon{
     margin-left: 60px;
@@ -651,16 +660,20 @@ img{
         }
         .icon-box {
             background-color: rgb(42, 22, 42);
-            height: 180px;
+            height: 150px;
+            /* height: 180px; */
             width: 150px;
+            /* width: 150px; */
             padding: 10px;
             border-radius: 1rem;
         }
         .icons, .icons-git{
-            height: 100px;
-            width: 100px;
+            height: 80px;
+            /* height: 100px; */
+            width: 80px;
+            /* width: 100px; */
             object-fit: contain;
-            padding:25px;
+            padding:20px;
         }
 
         .box{
@@ -683,14 +696,18 @@ img{
         
         .project-all{
             /* height:800px; */
+            height:600px;
             background-color:rgb(42, 22, 42) ;
-            padding: 20px;
+            padding: 10px;
+            /* padding: 20px; */
             border-radius: 15px;
         }
         
         .project-all img{
-            height:400px; 
-            width: 400px; 
+            height:350px; 
+            /* height:400px;  */
+            width: 350px; 
+            /* width: 400px;  */
             overflow: hidden; 
             object-fit: cover; 
             border-radius: 15px;
@@ -698,11 +715,13 @@ img{
         
         .project-desc{
             color: rgb(208, 195, 195);
-            font-size: 20px;
+            font-size: 13px;
         }
         .project-all button{
-            width: 130px;
-            padding: 20px;
+            width: 90px;
+            /* width: 130px; */
+            padding: 10px;
+            /* padding: 20px; */
             color: black;
             font-size: 18px;
             border-radius: 40px;
@@ -712,7 +731,7 @@ img{
             margin-left: 30px;
         }
         .contact-info{
-            width: 90%;
+            width: 85%;
             padding: 2rem;
     
         }
@@ -723,7 +742,7 @@ img{
 }
 
 
-@media (min-width:1201px) and (max-width:1890px) {
+/* @media (min-width:1200px) and (max-width:1890px) {
     .all{
         gap:9rem;
     }
@@ -752,5 +771,5 @@ img{
         }
 
    
-}
+} */
 
