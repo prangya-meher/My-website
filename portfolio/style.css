@@ -72,13 +72,28 @@ li a:hover{
     margin-left: 2rem;
 }
 
-
+.close-dark, .open-dark{
+    display: none;
+}
 .open-menu{
     display: none;
 }
 .light{
     display: none;
+    animation: rotate 2s linear infinite;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
+
+@keyframes rotate {
+    0% {
+        transform: rotate(20deg); /* Specify the unit for the rotation angle */
+    }
+    100% {
+        transform: rotate(360deg); /* Optional: complete the rotation */
+    }
+}
+
+
 
 /* <----------home-section-----------> */
 .home{
@@ -111,11 +126,18 @@ font-size: 50px;
     gap:20px;
 }
 
-.link, .git-i{
-    height: 50px;
-    width: 50px;
+.link,.git-i{
+    height: 53px;
+    width: 53px;
     border: 2px solid white;
     border-radius: 10px;
+    cursor: pointer;
+}
+.git-i-dark{
+    display: none;
+}
+.linked-dark{
+    display: none;
 }
 .linked{
     height: 50px;
@@ -343,11 +365,12 @@ img{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    cursor: pointer;
 }
-.mail-info:hover{
+/* .mail-info:hover{
     text-decoration:underline;
     
-}
+} */
 .linkedin-info:hover{
     text-decoration:underline;
     
@@ -356,6 +379,9 @@ img{
     width: 40px;
     height: 40px;
     object-fit: contain;
+}
+.mail-dark{
+    display: none;
 }
 
 
@@ -381,6 +407,7 @@ img{
 
 /* ----------media queries(max-width:850)------------- */
 @media (max-width:850px) {
+
     .all{
         text-align: center;
         gap:10rem ;

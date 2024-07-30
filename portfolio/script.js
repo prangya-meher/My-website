@@ -30,6 +30,7 @@ closeMenu.addEventListener("click", ()=>{
 })
 
 
+
 // <-----------dark and light mode---------->
 let darkMode=document.querySelector(".dark");
 let lightMode=document.querySelector(".light");
@@ -47,8 +48,31 @@ let mail=document.querySelector(".mail");
 let linkInfo=document.querySelector(".link-info")
 let footItem=document.querySelector(".foot-item");
 let copyRight=document.querySelector(".copyright");
+
+// <---------git-button---------->
 let gitLight=document.querySelector(".git-light");
 let gitDark=document.querySelector(".git-black");
+
+// <---------git-iocon----------->
+let gitIDark=document.querySelector(".git-i-dark");
+let gitILight=document.querySelector(".git-i-light");
+
+// <----------------linked-button---------->
+let linkedLight=document.querySelector(".linked-light");
+let linkedDark=document.querySelector(".linked-dark");
+
+// <----------------closemenu-------------->
+let closeLight=document.querySelector(".close-light");
+let closeDark=document.querySelector(".close-dark");
+
+// <----------------openmenu--------------->
+let openLight=document.querySelector(".open-light");
+let openDark=document.querySelector(".open-dark");
+
+// <--------------mail--------------->
+let mailDark=document.querySelector(".mail-dark");
+let mailLight=document.querySelector(".mail-light");
+
 
 
 
@@ -58,8 +82,34 @@ linkedinInfo.addEventListener("click", () => {
 });
 
 
+function handleResize() {
+    if (window.innerWidth <= 850) {
+      if (currMode === darkMode) {
+            openDark.style.display = 'block';
+            openDark.addEventListener("click", ()=>{
+              sidebar.style.display="flex";
+                 })
+            openLight.style.display = 'none';
+        } 
+        else {
+            openDark.style.display = 'none';
+            openLight.style.display = 'block';
+        }
+         
+    } 
+    else{
+        openDark.style.display="none";
+        openLight.style.display="none";
+    }
+}
+
+
+
+
 darkMode.addEventListener("click", () => {
     document.body.style.backgroundColor = "white";
+    closeMenu.style.color="black";
+    openMenu.style.color="black";
     darkMode.style.display = "none";
     lightMode.style.display = "block";
     lightMode.style.color = "black";
@@ -96,9 +146,48 @@ darkMode.addEventListener("click", () => {
     });
     mail.style.color="black";
     linkInfo.style.color="black";
+
   copyRight.style.color="black";
+
+
+// <----------openmenu--------->
+handleResize()
+
+
+
+
+  // <---------closemenu---------->
+  closeDark.style.display="block";
+  closeLight.style.display="none";
+
+  closeDark.addEventListener("click", ()=>{
+     sidebar.style.display="none";
+    });
+
+
+// <---------git-button---------->
   gitDark.style.display="block";
   gitLight.style.display="none";
+
+  // <---------git-icon---------->
+  gitIDark.style.display="block";
+  gitIDark.addEventListener("click", ()=>{
+    window.location.href = "https://github.com/prangya-meher";
+  })
+  gitILight.style.display="none";
+  
+  // <---------linked-button---------->
+  linkedDark.style.display="block";
+  linkedDark.addEventListener("click", () => {
+    window.location.href = "https://www.linkedin.com/in/prangyanjali-meher-aa6b56316/";
+});
+  linkedLight.style.display="none";
+
+//   <-----------mail----------->
+mailDark.style.display="block";
+mailLight.style.display="none";
+
+
     
     currMode = lightMode;
 });
@@ -144,8 +233,32 @@ lightMode.addEventListener("click", () => {
        mail.style.color="white";
     linkInfo.style.color="white";
     copyRight.style.color="white";
+
+    // <---------openmenu---------->
+    handleResize()
+
+    // openDark.style.display="none";
+    // openLight.style.display="block";
+    
+    // <---------closemenu---------->
+    closeDark.style.display="none";
+  closeLight.style.display="block";
+
+// <---------gitbutton---------->
     gitDark.style.display="none";
   gitLight.style.display="block";
+
+  // <---------git-icon---------->
+  gitIDark.style.display="none";
+  gitILight.style.display="block";
+
+  // <---------linked-button---------->
+  linkedDark.style.display="none";
+  linkedLight.style.display="block";
+
+  //   <-----------mail----------->
+mailDark.style.display="none";
+mailLight.style.display="block";
      
     currMode = darkMode;
 });
