@@ -48,7 +48,7 @@ li a{
 }
 li a:hover{
    text-decoration: underline;
-   color:rgba(212, 207, 210, 0.2) ;
+   color:rgba(212, 207, 210, 0.2);
 }
 
 .sidebar{
@@ -367,13 +367,19 @@ img{
     gap: 1rem;
     cursor: pointer;
 }
-/* .mail-info:hover{
+
+.mail-info a{
+    text-decoration: none;
+}
+
+.mail-info a:hover{
+    text-decoration: underline;
+    opacity: 0.44;
+}
+
+.link-info:hover{
     text-decoration:underline;
-    
-} */
-.linkedin-info:hover{
-    text-decoration:underline;
-    
+    opacity: 0.44; 
 }
 .mail-img{
     width: 40px;
@@ -543,11 +549,12 @@ img{
         gap: 40px;
         justify-content: center;
         align-items: center;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     
     .project-all{
         width: 87%;
+        height: 700px;
         gap: 50px;
         border-radius: 15px;
             }
@@ -573,6 +580,7 @@ img{
         border: 1px solid rgb(189, 183, 183);
         width:88%;
         padding:10px;
+        margin-left: 40px;
     }
     
     .mail-img{
@@ -596,6 +604,9 @@ img{
     .navigation{
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+    .skills-icon{
+        margin-left: 20px;
     }
 }
 
@@ -678,7 +689,8 @@ img{
     width: 100%;
 }
 .skills-icon{
-    margin-left: 60px;
+    margin-left: 0;
+    /* margin-left: 60px; */
 }
 
         .icon-split{
@@ -708,7 +720,7 @@ img{
         }
         .box{
             display: flex;
-            gap: 50px;
+            gap: 40px;
             justify-content: center;
         }
         .project-section{
@@ -718,7 +730,8 @@ img{
             display: flex;
             flex-direction: column;
             gap: 60px;
-            margin-left: 55px;
+            /* margin-left: 50px; */
+            margin-left: 0;
             justify-content: center;
             align-items: center;
             
@@ -727,7 +740,7 @@ img{
         .project-all{
             /* height:800px; */
             height:600px;
-            width: 450px;
+            width: 430px;
             background-color:rgb(42, 22, 42) ;
             padding: 10px;
             /* padding: 20px; */
@@ -759,21 +772,30 @@ img{
         }
 
         .contact-section{
-            margin-left: 30px;
+            margin-left: 0;
+            /* margin-left: 30px; */
         }
         .contact-info{
-            width: 800px;
+            width: 650px;
             padding: 2rem;
     
         }
         .mail-img{
-            width: 35px;
-            height: 35px;
+            width: 33px;
+            height: 33px;
             object-fit: contain;
         }
+
+        .link-info{
+            font-size: 23px;
+        }
+
+        .mail-info a{
+            font-size: 23px;
+        }
         .linked{
-            height: 35px;
-            width: 35px;
+            height: 33px;
+            width: 33px;
         }
         .link,.git-i{
             height: 36px;
@@ -786,9 +808,6 @@ img{
             font-size: 19px;
         };
 
-        .link-info, .mail{
-            font-size: 13px;
-        }
 
         .footer{
             margin-left: 50px;
