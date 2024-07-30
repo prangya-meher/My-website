@@ -440,12 +440,12 @@ img{
     }
     .home-right{
         border:3px solid rgb(165, 45, 165);
-        height:350px;
-        width: 280px;
+        height:300px;
+        width: 250px;
     }
     img{
-        height:350px;
-         width:280px;
+        height:300px;
+         width:250px;
         object-fit: cover;
         object-position:right;
         
@@ -455,8 +455,8 @@ img{
         gap: 10px;
     }
     .link, .git-i{
-        height: 36px;
-        width: 35px;
+        height: 38px;
+        width: 38px;
     }
     .linked{
         height: 35px;
