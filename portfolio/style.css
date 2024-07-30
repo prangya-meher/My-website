@@ -438,6 +438,18 @@ img{
         gap: 1px;
         
     }
+    .home-right{
+        border:3px solid rgb(165, 45, 165);
+        height:350px;
+        width: 280px;
+    }
+    img{
+        height:350px;
+         width:280px;
+        object-fit: cover;
+        object-position:right;
+        
+    }
     .down1{
         justify-content: center;
         gap: 10px;
@@ -625,7 +637,8 @@ img{
         gap: 2rem;
     }
     .home-sec{
-        padding:0 3rem 0;
+        padding:2rem 4rem;
+        /* padding:0 3rem 0; */
     }
     .home{
         display: flex;
@@ -637,11 +650,11 @@ img{
         
     } 
     .home-btn{
-        width: 200px;
+        width: 150px;
         border-style: none;
         /* padding: 10px; */
-        padding: 7px;
-        font-size: 13px;
+        padding: 8px;
+        font-size: 15px;
         /* font-size: 18px; */
         /* margin-top:2rem; */
         margin-top:2rem;
@@ -695,7 +708,7 @@ img{
         }
         .box{
             display: flex;
-            gap: 30px;
+            gap: 50px;
             justify-content: center;
         }
         .project-section{
@@ -704,7 +717,7 @@ img{
         .project-container{
             display: flex;
             flex-direction: column;
-            gap: 40px;
+            gap: 60px;
             margin-left: 55px;
             justify-content: center;
             align-items: center;
@@ -770,15 +783,18 @@ img{
             cursor: pointer;
         }
         .foot li{
-            font-size: 18px;
+            font-size: 19px;
         };
 
         .link-info, .mail{
-            font-size: 15px;
+            font-size: 13px;
         }
 
         .footer{
             margin-left: 50px;
+        }
+        .copyright{
+            font-size: 15px;
         }
 }
 
