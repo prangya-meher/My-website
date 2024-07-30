@@ -600,13 +600,27 @@ img{
      }
     nav{
         /* font-size: 20px; */
-        font-size: 15px;
+        font-size: 18px;
         margin-left: 0;
         margin-right: 3rem;
         /* margin-right: 0; */
         gap:0;
         justify-content: space-between;
         }
+
+        .home-right{
+            border:3px solid rgb(165, 45, 165);
+            height:250px;
+            width: 200px;
+        }
+        img{
+            height:250px;
+             width:200px;
+            object-fit: cover;
+            object-position:right;
+            
+        }
+
     ul{
         gap: 2rem;
     }
@@ -618,8 +632,8 @@ img{
         gap: 2rem;
         align-items: center;
         gap: 4rem;
-        margin-top: 4rem;
-        padding:1rem;
+        margin-top: 1rem;
+        /* padding:1rem; */
         
     } 
     .home-btn{
@@ -629,8 +643,8 @@ img{
         padding: 7px;
         font-size: 13px;
         /* font-size: 18px; */
-        margin-top:-2rem;
         /* margin-top:2rem; */
+        margin-top:2rem;
     }
     .head{
         /* font-size: 55px; */
@@ -660,9 +674,9 @@ img{
         }
         .icon-box {
             background-color: rgb(42, 22, 42);
-            height: 150px;
+            height: 130px;
             /* height: 180px; */
-            width: 150px;
+            width: 130px;
             /* width: 150px; */
             padding: 10px;
             border-radius: 1rem;
@@ -676,6 +690,9 @@ img{
             padding:20px;
         }
 
+        .icon-box p{
+            font-size: 15px;
+        }
         .box{
             display: flex;
             gap: 30px;
@@ -697,6 +714,7 @@ img{
         .project-all{
             /* height:800px; */
             height:600px;
+            width: 450px;
             background-color:rgb(42, 22, 42) ;
             padding: 10px;
             /* padding: 20px; */
@@ -731,9 +749,32 @@ img{
             margin-left: 30px;
         }
         .contact-info{
-            width: 85%;
+            width: 800px;
             padding: 2rem;
     
+        }
+        .mail-img{
+            width: 35px;
+            height: 35px;
+            object-fit: contain;
+        }
+        .linked{
+            height: 35px;
+            width: 35px;
+        }
+        .link,.git-i{
+            height: 36px;
+            width: 38px;
+            border: 2px solid white;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .foot li{
+            font-size: 18px;
+        };
+
+        .link-info, .mail{
+            font-size: 15px;
         }
 
         .footer{
