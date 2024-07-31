@@ -48,7 +48,6 @@ li a{
 }
 li a:hover{
    text-decoration: underline;
-   color:rgba(212, 207, 210, 0.2);
 }
 
 .sidebar{
