@@ -780,8 +780,14 @@ img{
             padding: 10px;
             /* padding: 20px; */
             color: black;
-            font-size: 18px;
+            font-size: 15px;
             border-radius: 40px;
+        }
+        .live-demo{
+            font-size: 15px;
+            padding: 10px;
+            width: 90px;
+            border-radius:40px ;
         }
 
         .contact-section{

@@ -238,8 +238,8 @@ lightMode.addEventListener("click", () => {
         e.style.color="black";
        });
        liveDemo.forEach((e)=>{
-        e.style.backgroundColor="black";
-        e.style.color="white"
+        e.style.backgroundColor="white";
+        e.style.color="black";
        });
        mail.style.color="white";
     linkInfo.style.color="white";
