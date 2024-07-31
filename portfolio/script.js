@@ -273,7 +273,7 @@ mailLight.style.display="block";
     currMode = darkMode;
 });
 
-
+// <--------------git-button---------------->
 gitButton[0].addEventListener("click", () => {
     window.location.href = "https://github.com/prangya-meher/StreamFlix";
 });
@@ -287,7 +287,7 @@ gitButton[3].addEventListener("click", () => {
     window.location.href = "https://github.com/prangya-meher/GameHub";
 });
 
-
+// <-----------live-demo-------------->
 liveDemo[0].addEventListener("click", () => {
     window.location.href = "https://stream-flix-gamma.vercel.app/";
 });
