@@ -43,11 +43,13 @@ let iconGit=document.querySelector(".icon-git");
 let iconDesc=document.querySelectorAll(".icon-desc");
 let projectDesc=document.querySelectorAll(".project-desc");
 let gitButton=document.querySelectorAll(".git-button");
+let liveDemo=document.querySelectorAll(".live-demo");
 let projectAll=document.querySelectorAll(".project-all");
 let mail=document.querySelector(".mail");
 let linkInfo=document.querySelector(".link-info")
 let footItem=document.querySelector(".foot-item");
 let copyRight=document.querySelector(".copyright");
+
 
 // <---------git-button---------->
 let gitLight=document.querySelector(".git-light");
@@ -144,6 +146,11 @@ darkMode.addEventListener("click", () => {
      e.style.backgroundColor="black";
      e.style.color="white"
     });
+    liveDemo.forEach((e)=>{
+     e.style.backgroundColor="black";
+     e.style.color="white"
+    });
+
     mail.style.color="black";
     linkInfo.style.color="black";
 
@@ -230,6 +237,10 @@ lightMode.addEventListener("click", () => {
         e.style.backgroundColor="white";
         e.style.color="black";
        });
+       liveDemo.forEach((e)=>{
+        e.style.backgroundColor="black";
+        e.style.color="white"
+       });
        mail.style.color="white";
     linkInfo.style.color="white";
     copyRight.style.color="white";
@@ -237,8 +248,7 @@ lightMode.addEventListener("click", () => {
     // <---------openmenu---------->
     handleResize()
 
-    // openDark.style.display="none";
-    // openLight.style.display="block";
+   
     
     // <---------closemenu---------->
     closeDark.style.display="none";
@@ -275,5 +285,19 @@ gitButton[2].addEventListener("click", () => {
 });
 gitButton[3].addEventListener("click", () => {
     window.location.href = "https://github.com/prangya-meher/GameHub";
+});
+
+
+liveDemo[0].addEventListener("click", () => {
+    window.location.href = "https://stream-flix-gamma.vercel.app/";
+});
+liveDemo[1].addEventListener("click", () => {
+    window.location.href = "https://weather-app-tan-six-39.vercel.app/";
+});
+liveDemo[2].addEventListener("click", () => {
+    window.location.href = "https://calculator-ebon-zeta-34.vercel.app/";
+});
+liveDemo[3].addEventListener("click", () => {
+    window.location.href = "https://game-hub-flame-tau.vercel.app/";
 });
 
