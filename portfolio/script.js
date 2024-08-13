@@ -286,6 +286,9 @@ gitButton[2].addEventListener("click", () => {
 gitButton[3].addEventListener("click", () => {
     window.location.href = "https://github.com/prangya-meher/GameHub";
 });
+gitButton[4].addEventListener("click", () => {
+    window.location.href = "https://github.com/prangya-meher/todo-list";
+});
 
 // <-----------live-demo-------------->
 liveDemo[0].addEventListener("click", () => {
@@ -300,4 +303,8 @@ liveDemo[2].addEventListener("click", () => {
 liveDemo[3].addEventListener("click", () => {
     window.location.href = "https://game-hub-flame-tau.vercel.app/";
 });
+liveDemo[4].addEventListener("click", () => {
+    window.location.href = "https://todo-list-orpin-six.vercel.app/";
+});
+
 
