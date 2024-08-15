@@ -738,7 +738,7 @@
                 font-size: 20px;
         }
         .about-sec{
-            width: 107%;
+            width: 100%;
             padding:2rem;
            display: flex;
            flex-direction: column;
