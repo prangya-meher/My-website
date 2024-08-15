@@ -807,6 +807,10 @@
             width: 320px;
             object-fit: cover;
         }
+
+        h2{
+            font-size: 25px;
+        }
         
         .project-text{
             width: 310px;
