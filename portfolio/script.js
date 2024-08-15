@@ -43,7 +43,7 @@ let iconGit=document.querySelector(".icon-git");
 let iconDesc=document.querySelectorAll(".icon-desc");
 let projectDesc=document.querySelectorAll(".project-desc");
 let gitButton=document.querySelectorAll(".git-button");
-let liveDemo=document.querySelectorAll(".live-demo");
+let liveDemo=document.querySelectorAll(".live-button");
 let projectAll=document.querySelectorAll(".project-all");
 let mail=document.querySelector(".mail");
 let linkInfo=document.querySelector(".link-info")
@@ -107,7 +107,7 @@ function handleResize() {
 
 
 
-
+// <---------------lightMode---------------->
 darkMode.addEventListener("click", () => {
     document.body.style.backgroundColor = "white";
     closeMenu.style.color="black";
@@ -142,15 +142,6 @@ darkMode.addEventListener("click", () => {
     projectAll.forEach((e)=>{
         e.style.backgroundColor="whitesmoke";
     });
-    gitButton.forEach((e)=>{
-     e.style.backgroundColor="black";
-     e.style.color="white"
-    });
-    liveDemo.forEach((e)=>{
-     e.style.backgroundColor="black";
-     e.style.color="white"
-    });
-
     mail.style.color="black";
     linkInfo.style.color="black";
 
@@ -160,9 +151,6 @@ darkMode.addEventListener("click", () => {
 // <----------openmenu--------->
 handleResize()
 
-
-
-
   // <---------closemenu---------->
   closeDark.style.display="block";
   closeLight.style.display="none";
@@ -170,8 +158,6 @@ handleResize()
   closeDark.addEventListener("click", ()=>{
      sidebar.style.display="none";
     });
-
-
 // <---------git-button---------->
   gitDark.style.display="block";
   gitLight.style.display="none";
@@ -201,6 +187,8 @@ mailLight.style.display="none";
 
 
 
+
+// <--------darkMode---------->
 lightMode.addEventListener("click", () => {
     document.body.style.backgroundColor = "rgb(31, 20, 31)";
     lightMode.style.display = "none";
@@ -233,14 +221,7 @@ lightMode.addEventListener("click", () => {
     projectAll.forEach((e)=>{
         e.style.backgroundColor="rgb(42, 22, 42)";
     })
-    gitButton.forEach((e)=>{
-        e.style.backgroundColor="white";
-        e.style.color="black";
-       });
-       liveDemo.forEach((e)=>{
-        e.style.backgroundColor="white";
-        e.style.color="black";
-       });
+
        mail.style.color="white";
     linkInfo.style.color="white";
     copyRight.style.color="white";
