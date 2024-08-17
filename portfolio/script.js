@@ -1,3 +1,84 @@
+// <------------------about------------------->
+gsap.from("#about",{
+    opacity:0,
+    y:200,
+    duration:1,
+    scrollTrigger:{
+        trigger:"#about",
+        scroll:"body",
+        markers:true,
+        start:"top 100%",
+        end:"top 60%",
+        scrub:2
+
+    }
+})
+
+// <------------------skills--------------->
+gsap.from("#skills .icon-box",{
+    opacity:0,
+    transform:"translateY(-100%)",
+    duration:2,
+    stagger:1,
+    scrollTrigger:{
+        trigger:"#skills .icon-box",
+        start:"top 80%",
+        end:"top 50%",
+        scrub:2
+    }
+})
+
+// <--------------------project----------------->
+
+gsap.from("#project",{
+    opacity:0,
+    y:200,
+    duration:3,
+    scrollTrigger:{
+        trigger:"#project",
+        scroll:"body",
+        markers:true,
+        start:"top 55%",
+        end:"top 50%",
+        scrub:2
+
+    }
+})
+
+
+// <--------------contact-------------->
+gsap.from("#contact",{
+    opacity:0,
+    y:200,
+    duration:1,
+    scrollTrigger:{
+        trigger:"#contact",
+        scroll:"body",
+        markers:true,
+        start:"top 100%",
+        end:"top 60%",
+        scrub:2
+
+    }
+})
+
+// <----------------footer------------------>
+gsap.from("#footer",{
+    opacity:0,
+    y:200,
+    duration:1,
+    scrollTrigger:{
+        trigger:"#footer",
+        scroll:"body",
+        markers:true,
+        start:"top 100%",
+        end:"top 60%",
+        scrub:2
+
+    }
+})
+
+
 let openMenu=document.querySelector(".open-menu");
 let closeMenu=document.querySelector(".close-menu");
 let sidebar=document.querySelector(".sidebar");
