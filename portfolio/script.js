@@ -3,7 +3,7 @@ tl.from(".navigation",{
     opacity:0,
     delay:1,
     y:200,
-    duration:1
+    duration:2
 })
 
 tl.from(".all",{
@@ -83,8 +83,7 @@ gsap.from("#footer",{
     scrollTrigger:{
         trigger:"#footer",
         scroll:"body",
-        markers:true,
-        start:"top 100%",
+        start:"top 125%",
         end:"top 60%",
         scrub:2
 
