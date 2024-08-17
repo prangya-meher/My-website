@@ -83,7 +83,7 @@ gsap.from("#footer",{
     scrollTrigger:{
         trigger:"#footer",
         scroll:"body",
-        start:"top 100%",
+        start:"top 80%",
         end:"top 60%",
         scrub:2
 
