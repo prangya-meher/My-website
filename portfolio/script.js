@@ -1,8 +1,24 @@
+var tl=gsap.timeline();
+tl.from(".navigation",{
+    opacity:0,
+    delay:1,
+    y:200,
+    duration:1
+})
+
+tl.from(".all",{
+    opacity:0,
+    y:200,
+    duration:1
+})
+
+
+
 // <------------------about------------------->
 gsap.from("#about",{
     opacity:0,
     y:200,
-    duration:1,
+    duration:2,
     scrollTrigger:{
         trigger:"#about",
         scroll:"body",
@@ -16,8 +32,8 @@ gsap.from("#about",{
 // <------------------skills--------------->
 gsap.from("#skills .icon-box",{
     opacity:0,
-    transform:"translateY(-100%)",
-    duration:2,
+    transform:"translateY(-50%)",
+    duration:3,
     stagger:1,
     scrollTrigger:{
         trigger:"#skills .icon-box",
@@ -32,7 +48,7 @@ gsap.from("#skills .icon-box",{
 gsap.from("#project",{
     opacity:0,
     y:200,
-    duration:3,
+    duration:1,
     scrollTrigger:{
         trigger:"#project",
         scroll:"body",
