@@ -52,7 +52,7 @@ gsap.from("#project",{
     scrollTrigger:{
         trigger:"#project",
         scroll:"body",
-        start:"top 55%",
+        start:"top 60%",
         end:"top 50%",
         scrub:2
 
@@ -83,7 +83,7 @@ gsap.from("#footer",{
     scrollTrigger:{
         trigger:"#footer",
         scroll:"body",
-        start:"top 130%",
+        start:"top 140%",
         end:"top 60%",
         scrub:2
 
