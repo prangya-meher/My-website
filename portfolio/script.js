@@ -6,7 +6,6 @@ gsap.from("#about",{
     scrollTrigger:{
         trigger:"#about",
         scroll:"body",
-        markers:true,
         start:"top 100%",
         end:"top 60%",
         scrub:2
@@ -37,7 +36,6 @@ gsap.from("#project",{
     scrollTrigger:{
         trigger:"#project",
         scroll:"body",
-        markers:true,
         start:"top 55%",
         end:"top 50%",
         scrub:2
@@ -54,7 +52,6 @@ gsap.from("#contact",{
     scrollTrigger:{
         trigger:"#contact",
         scroll:"body",
-        markers:true,
         start:"top 100%",
         end:"top 60%",
         scrub:2
@@ -70,7 +67,6 @@ gsap.from("#footer",{
     scrollTrigger:{
         trigger:"#footer",
         scroll:"body",
-        markers:true,
         start:"top 100%",
         end:"top 60%",
         scrub:2
