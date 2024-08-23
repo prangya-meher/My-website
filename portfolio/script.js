@@ -91,6 +91,7 @@ gsap.from("#footer",{
 })
 
 
+
 let openMenu=document.querySelector(".open-menu");
 let closeMenu=document.querySelector(".close-menu");
 let sidebar=document.querySelector(".sidebar");
