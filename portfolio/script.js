@@ -1,18 +1,3 @@
-var tl=gsap.timeline();
-tl.from(".navigation",{
-    opacity:0,
-    delay:1,
-    y:200,
-    duration:2
-})
-
-tl.from(".all",{
-    opacity:0,
-    y:200,
-    duration:1
-})
-
-
 
 // <------------------about------------------->
 gsap.from("#about",{
