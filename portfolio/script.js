@@ -76,11 +76,13 @@ gsap.from("#footer",{
 })
 
 
-
 let openMenu=document.querySelector(".open-menu");
 let closeMenu=document.querySelector(".close-menu");
 let sidebar=document.querySelector(".sidebar");
 let hiddenNav=document.querySelectorAll("a");
+
+
+
 
 
 let contactBtn=document.querySelector(".contact-button");
@@ -94,12 +96,15 @@ cvBtn.addEventListener("click", () => {
 let git=document.querySelector(".git-i");
 let link=document.querySelector(".linked");
 
+
+
 git.addEventListener("click", () => {
     window.location.href = "https://github.com/prangya-meher";
 });
 link.addEventListener("click", () => {
     window.location.href = "https://www.linkedin.com/in/prangyanjali-meher-aa6b56316/";
 });
+
 //  <----------menubar--------->
 openMenu.addEventListener("click", ()=>{
     sidebar.style.display="flex";
@@ -155,8 +160,6 @@ let mailDark=document.querySelector(".mail-dark");
 let mailLight=document.querySelector(".mail-light");
 
 
-
-
 let linkedinInfo=document.querySelector(".linkedin-info");
 linkedinInfo.addEventListener("click", () => {
     window.location.href = "https://www.linkedin.com/in/prangyanjali-meher-aa6b56316/";
@@ -175,6 +178,10 @@ function handleResize() {
         else {
             openDark.style.display = 'none';
             openLight.style.display = 'block';
+            openLight.addEventListener("click", ()=>{
+                sidebar.style.display="flex";
+                   })
+
         }
          
     } 
